@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.gradlePlugin
+
 plugins {
     `kotlin-dsl`
 }
@@ -10,4 +12,13 @@ dependencies{
     compileOnly(libs.kotlin.gradlePlugin)
     compileOnly(libs.ksp.gradlePlugin)
     compileOnly(libs.room.gradlePlugin)
+}
+
+gradlePlugin {
+    plugins{
+        register("androidApplication"){
+            id = "runique.android.application"
+            implementationClass = "AndroidApplicationConventionPlugin"
+        }
+    }
 }
