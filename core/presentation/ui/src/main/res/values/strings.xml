@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_disk_full">El guardado del item falló porque su disco esta lleno</string>
+    <string name="error_request_timeout">La petición supero el tiempo de espera</string>
+    <string name="error_too_many_requests">Ha alcanzado el limite de uso</string>
+    <string name="error_no_internet">No se pudo acceder al servidor, revisa tu conexión a internet</string>
+    <string name="error_payload_too_large">El archivo que estas tratando de subir es demasiado largo</string>
+    <string name="error_server_error">Ups ha ocurrido un error, por favor reintente más tarde</string>
+    <string name="error_serialization">Ups no se ha podido parsear la información</string>
+    <string name="error_unknow">Un error desconocido a ocurrido</string>
+</resources>
