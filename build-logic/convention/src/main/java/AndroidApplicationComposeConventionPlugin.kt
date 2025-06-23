@@ -10,6 +10,7 @@ internal class AndroidApplicationComposeConventionPlugin : Plugin<Project>{
         target.run {
 
             pluginManager.apply("runique.android.application")
+            pluginManager.apply("org.jetbrains.kotlin.plugin.compose")
 
             val extension = extensions.getByType<ApplicationExtension>()
             configureAndroidCompose(extension)
