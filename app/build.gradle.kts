@@ -59,6 +59,8 @@ dependencies {
     // Timber
     implementation(libs.timber)
 
+    implementation(libs.bundles.koin)
+
     implementation(projects.core.presentation.designsystem)
     implementation(projects.core.presentation.ui)
     implementation(projects.core.domain)
